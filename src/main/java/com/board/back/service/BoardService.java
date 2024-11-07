@@ -13,7 +13,7 @@ import com.board.back.repository.BoardRepository;
 public class BoardService {
 	
 	@Autowired
-    private BoardRepository boardRepository;
+    private BoardRepository boardRepository;  
 
     public List<Board> getAllBoards() {
         return boardRepository.findAll();
