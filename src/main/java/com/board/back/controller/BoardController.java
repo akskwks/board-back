@@ -13,7 +13,7 @@ import com.board.back.service.BoardService;
 @CrossOrigin(origins = "http://localhost:3000")
 @RestController
 @RequestMapping("/api/boards")
-public class BoardController { 
+public class BoardController {  
 
     @Autowired
     private BoardService boardService;
